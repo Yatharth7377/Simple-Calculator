@@ -17,7 +17,7 @@ def divide(x, y):
     return x / y
 
 # This function finds the remainder of 2 numbers
-def divide(x,y):
+def remainder(x,y):
     return 
 
 print("Select operation.")
@@ -48,7 +48,7 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
         
         elif choice == '5':
-            print(num1,"/", num2, "=", num1 % num2))
+            print(num1,"%",num2, "=", num1 % num2))
 
         
         # check if user wants another calculation
